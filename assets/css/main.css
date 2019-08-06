@@ -6,6 +6,7 @@ html, body {
 body {
   font-family: "Open Sans", sans-serif;
   color: #221d23;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 576px) {
