@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #221d23;
+}
+
+@media only screen and (min-width: 576px) {
+  body {
+    width: 576px;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  body {
+    width: 992px;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    width: 1280px;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
