@@ -1,0 +1,56 @@
+.header {
+	&__title {
+		font-size: $xxxxx-large;
+		font-family: $raleway;
+		font-weight: $bold;
+
+	}
+
+	&__paragraph {
+		font-size: $small;
+	}
+}
+
+.main-section {
+	&__title {
+		font-size: $xxx-large;
+		font-family: $raleway;
+		font-weight: $bold;
+		text-align: center;
+	}
+
+	&__subtitle {
+		font-size: $xx-large;
+		font-family: $raleway;
+		font-weight: $bold;
+	}
+
+	&__paragraph {
+		font-size: $small;
+	}
+}
+
+.pricing__title {
+	font-size: $xxx-large;
+	font-family: $raleway;
+	font-weight: $bold;
+	text-align: center;
+}
+
+.card {
+	&__ep {
+		font-size: $x-large;
+	}
+	&__price {
+		font-size: $xxxx-large;
+		font-family: $raleway;
+		font-weight: $bold;
+	}
+	&__list-item {
+		font-size: $medium;
+	}
+}
+
+.footer {
+	font-size: $small;
+}
