@@ -1,0 +1,14 @@
+.footer {
+	background-color: $raising-black;
+	color: $lavender-gray;
+}
+
+.footer__list {
+	list-style: none;
+	&-item {
+	}
+}
+
+.footer__copyright {
+	margin-bottom: 0;
+}

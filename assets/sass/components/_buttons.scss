@@ -1,0 +1,41 @@
+.button {
+	border: 0;
+	background-color: $ball-blue;
+	font-family: $raleway;
+	font-size: $medium;
+	font-weight: $bold;
+	color: $white;
+	text-align: center;
+
+	&:hover {
+		background-color: $middle-blue;
+	}
+	&:focus {
+		background-color: $lavender-gray;
+	}
+
+	&--transparent {
+		background-color: $white;
+		color: $raising-black;
+
+		&:hover {
+			background-color: $platinum;
+			color: $white;
+		}
+
+		&:focus {
+			background-color: $lavender-gray;
+			color: $white;
+		}
+	}
+
+	&--regular {
+		padding: .3em .7em;
+		margin-left: 1em;
+	}
+
+	&--large {
+		padding: .7em 4em;
+		width: 100%;
+	}
+}

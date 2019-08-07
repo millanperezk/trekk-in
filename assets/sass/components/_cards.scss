@@ -1,0 +1,46 @@
+.pricing__cards-container {
+	padding: 1rem;
+	@media only screen and (min-width: 768px) {
+		padding: 3rem;
+	}
+}
+
+.pricing__card {
+	width: 80%;
+	height: auto;
+	background-color: $white;
+	color: $raising-black;
+	padding: 3em 2em 2em 2em;
+	margin: 1em auto 2em auto;
+	@media only screen and (min-width: 768px) {
+		width: 70%;
+	}
+	@media only screen and (min-width: 992px) {
+		width: 35%;
+	}
+}
+
+.card__body {
+	border-top: 1px solid $raising-black;
+	border-bottom: 2px solid $gray;
+	padding: .5em;
+	margin: 0;
+	line-height: 2em;
+	@media only screen and (min-width: 992px) {
+		height: 15rem;
+	}
+}
+
+.card__list {
+	margin: 1em;
+	padding: 0;
+}
+
+.card__list-item {
+	padding-left: 1em;
+}
+
+
+.card__footer {
+	margin-top: 1.2em;
+}

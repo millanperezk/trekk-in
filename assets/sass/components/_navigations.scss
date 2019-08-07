@@ -1,0 +1,20 @@
+.navigation__item {
+	color: $raising-black;
+	&:hover {
+		color: $nickel;
+	}
+	&:focus {
+		color: $silver-chalice;
+	}
+}
+
+.navigation__buttons {
+	display: none;
+	@media only screen and (min-width: 992px) {
+		display: inline-block;
+	}
+}
+
+.navigation__burger {
+	color: $raising-black;
+}

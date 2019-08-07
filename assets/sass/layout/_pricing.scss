@@ -1,0 +1,17 @@
+.pricing {
+	background-image: url(../img/bg-price.svg);
+	color: $white;
+	padding-top: 5rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	@media only screen and (min-width: 576px) {
+		padding-top: 15rem;
+	}
+	@media only screen and (min-width: 1280px) {
+		background-size: cover;
+	}
+}
+
+.pricing__cards-container {
+	background-color: $onyx;
+}
