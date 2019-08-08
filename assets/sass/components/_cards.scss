@@ -1,27 +1,22 @@
-.pricing__cards-container {
-	padding: 1rem;
-	@media only screen and (min-width: 768px) {
-		padding: 3rem;
-	}
-}
-
 .pricing__card {
-	width: 80%;
 	height: auto;
 	background-color: $white;
 	color: $raising-black;
-	padding: 3em 2em 2em 2em;
-	margin: 1em auto 2em auto;
-	@media only screen and (min-width: 768px) {
-		width: 70%;
-	}
-	@media only screen and (min-width: 992px) {
-		width: 35%;
+	padding: 2em 1.8em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	&:hover {
+		border-color: $nickel;
+		box-shadow: 1px 1px 3px 4px rgba($color: $raising-black, $alpha: .2), -1px 0 3px 3px rgba($color: $raising-black, $alpha: .2);
 	}
 }
 
+.card__title {
+	padding: 1.5em 0;
+}
+
 .card__body {
-	border-top: 1px solid $raising-black;
+	border-top: 2px solid $gray;
 	border-bottom: 2px solid $gray;
 	padding: .5em;
 	margin: 0;

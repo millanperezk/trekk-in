@@ -1,5 +1,9 @@
+.navigation__logo {
+	width: 3rem;
+}
 .navigation__item {
 	color: $raising-black;
+	margin-right: 1.2em;
 	&:hover {
 		color: $nickel;
 	}

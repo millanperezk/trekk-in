@@ -1,36 +1,54 @@
 .navigation__links {
 	font-family: $raleway;
-	font-size: $small;
+	font-size: $medium;
 }
 
 .header {
 	&__title {
-		font-size: $xxxxx-large;
+		font-size: $xxxx-large;
 		font-family: $raleway;
 		font-weight: $bold;
+		@media only screen and (min-width: 768px) {
+			font-size: $xxxxx-large;
+		}
 	}
 
 	&__paragraph {
 		font-size: $small;
+		@media only screen and (min-width: 576px) {
+			font-size: $medium;
+		}
 	}
 }
 
 .main-section {
 	&__title {
-		font-size: $xxx-large;
+		font-size: $xx-large;
 		font-family: $raleway;
 		font-weight: $bold;
 		text-align: center;
+		@media only screen and (min-width: 576px) {
+			font-size: $xxx-large;
+		}
+		@media only screen and (min-width: 768px) {
+			font-size: $xxxx-large;
+		}
 	}
 
 	&__subtitle {
-		font-size: $x-large;
+		font-size: $large;
 		font-family: $raleway;
 		font-weight: $bold;
+		@media only screen and (min-width: 576px) {
+			font-size: $x-large;
+		}
 	}
 
 	&__paragraph {
 		font-size: $small;
+		@media only screen and (min-width: 768px) {
+			font-size: $medium;
+		}
 	}
 }
 
@@ -39,22 +57,37 @@
 	font-family: $raleway;
 	font-weight: $bold;
 	text-align: center;
+	@media only screen and (min-width: 768px) {
+		font-size: $xxxx-large;
+	}
 }
 
 .card {
 	&__ep {
 		font-size: $large;
+		@media only screen and (min-width: 576px) {
+			font-size: $x-large;
+		}
 	}
 	&__price {
 		font-size: $xxx-large;
 		font-family: $raleway;
 		font-weight: $bold;
+		@media only screen and (min-width: 768px) {
+			font-size: $xxxx-large;
+		}
 	}
 	&__list-item {
 		font-size: $small;
+		@media only screen and (min-width: 768px) {
+			font-size: $medium;
+		}
 	}
 }
 
 .footer {
 	font-size: $x-small;
+	@media only screen and (min-width: 576px) {
+		font-size: $small;
+	}
 }

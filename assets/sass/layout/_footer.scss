@@ -1,14 +1,36 @@
 .footer {
 	background-color: $raising-black;
 	color: $lavender-gray;
+	@media only screen and (max-width: 778px) {
+		text-align: center;
+	}
 }
 
 .footer__list {
 	list-style: none;
+	@media only screen and (max-width: 778px) {
+		display: flex;
+		justify-content: space-evenly;
+	}
 	&-item {
+		display: inline-block;
+		@media only screen and (max-width: 778px) {
+			flex-grow: 1;
+		}
+
+		a {
+			text-decoration: none;
+			color: $lavender-gray;
+		}
 	}
 }
 
 .footer__copyright {
 	margin-bottom: 0;
+	text-align: center;	
+	@media only screen and (max-width: 778px) {
+		display: flex;
+		justify-content: center;
+		padding-top: 1.5em;
+	}
 }

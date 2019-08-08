@@ -15,12 +15,13 @@
 	}
 
 	&--transparent {
-		background-color: $white;
+		background-color: transparent;
 		color: $raising-black;
+		font-weight: $bold;
 
 		&:hover {
-			background-color: $platinum;
-			color: $white;
+			background-color: transparent;
+			border: 1px solid $platinum;
 		}
 
 		&:focus {
@@ -35,7 +36,7 @@
 	}
 
 	&--large {
-		padding: .7em 4em;
+		padding: .7em;
 		width: 100%;
 	}
 }

@@ -1,3 +1,22 @@
-.main-section {
+.main-section__wrapper {
 	margin: 0 auto;
+	padding: 2rem;
+}
+
+.main-section__text {
+	line-height: 2em;
+	margin-top: 2em;
+	@media only screen and (min-width: 992px) {
+		padding-left: 3em;
+	}
+	@media only screen and (min-width: 1280px) {
+		padding-left: 4em;
+	}
+}
+
+.main-section__paragraph {
+	margin-top: 1em;
+}
+.main-section__graphic {
+	animation: fade-in 2.5s ease-out .5s;
 }
